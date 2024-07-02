@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="first">
+                <div class="heading">
+                    <p>Get in <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>touch</span></p>
+                </div>
+                <div class="social">
+                    <div class="mail"><img src="/images/gmail.png" alt="">
+                        <p>dheeraj4876@gmail.com</p>
+                    </div>
+                    <div class="phone"><img src="/images/phone.png" alt="">
+                        <p>+91 7310 7890 40</p>
+                    </div>
+                    <div class="loc"><img src="/images/loc.png" alt="">
+                        <p>Latakunj Colony, Agra</p>
+                    </div>
+                </div>
+                <div class="profile">
+                    <a href="http://www.linkedin.com/in/dheerajkriplani" target="_blank"><img src="/images/link.png"
+                            alt=""></a>
+                    <a href="https://wa.me/7310789040" target="_blank"><img src="/images/what.png" alt=""></a>
+                    <a href=""><img src="/images/insta.png" alt=""></a>
+
+                </div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="second">
+                <div class="head">Please fill up the form
+                </div>
+                <input type="hidden" name="access_key" value="bbcfee38-b85f-4864-a801-607f30a19bdc">
+                <div class="name">
+                    <p class="yourname">Your name</p>
+                    <input id="input-name" name="name" type="text" placeholder="Enter your name">
+                </div>
+                <div class="email">
+                    <p class="youremail">Your email</p>
+                    
+                    <input type="text" id="input-email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="message">
+                    <p class="yourmessage">Your Message</p>
+                    
+                    <textarea id="input-message" type="text" name="message"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
